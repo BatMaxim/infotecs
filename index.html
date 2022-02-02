@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Infotecs</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="table__container">
+            <table class="table">
+                <thead>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div class="footer-container">
+                <button id="btn-show-col" class="main-btn">Показать скрытые колонки</button>
+                <div class="pagination">
+                    <button data-type="minus" class="main-btn pagination__btn"><i class="fas fa-chevron-left"></i></button>
+                    <input type="number" class="pagination__input" value="1">
+                    <button data-type="plus" class="main-btn pagination__btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <form action="#" class="form disp-none">
+            <label>Имя: <input class="form__input" id="form-firstName" type="text"></label>
+            <label>Фамилия: <input class="form__input"  id="form-lastName" type="text"></label>
+            <label>Телефон: <input class="form__input"  id="form-phone" type="text"></label>
+            <label>Описание: <textarea  id="form-about" class="form__input"></textarea></label>
+            <label>Цвет глаз: <input class="form__input"  id="form-eyeColor" type="text"></label>
+            <button id="form-button" class="form__btn">Изменить</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/9d5a878ebd.js" crossorigin="anonymous"></script>
+    <script src="js/changesForm.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/pagination.js"></script>
+    <script src="js/people.js"></script>
+    <script src="js/sort.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
